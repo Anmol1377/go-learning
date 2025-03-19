@@ -1,0 +1,98 @@
+# .gitignore
+
+# Ignore operating system files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore compiler output
+*.class
+*.exe
+*.o
+*.obj
+
+# Ignore package files
+*.zip
+*.tar
+*.gz
+*.bz2
+
+# Ignore logs
+*.log
+
+# Ignore node_modules
+node_modules/
+
+# Ignore python cache
+__pycache__/
+
+# Ignore java build files
+target/
+build/
+
+# Ignore eclipse files
+.metadata/
+bin/
+
+# Ignore intellij files
+out/
+.idea/modules.xml
+
+# Ignore netbeans files
+nbproject/
+build/
+nbdist/
+dist/
+
+# Ignore maven files
+target/
+pom.xml.tag
+
+# Ignore gradle files
+.gradle/
+build/
+out/
+
+# Ignore visual studio code files
+.vs/
+
+# Ignore visual studio files
+.vs/
+Debug/
+Release/
+x64/
+x86/
+
+# Ignore sublime text files
+*.sublime-workspace
+*.sublime-project
+
+# Ignore atom files
+.atom/
+*.atom
+
+# Ignore brackets files
+.brackets.json
+.brackets-sass-cache/
+
+# Ignore text editor files
+*.suo
+*.ntvs*
+*.njsproj
+*.userosscache
+
+# Ignore yarn and npm files
+yarn-error.log
+yarn-debug.log
+npm-debug.log
+package-lock.json
+
+
+#new
+/storage
+/config
